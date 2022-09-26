@@ -1,0 +1,20 @@
+/**
+ *
+ * @author ACER_Eli Darustiya_20210040068_TI21A
+ */
+
+import javax.swing.*;
+
+public class LearJava1 {
+    public static void main(String[] args) {
+        System.out.println("Belajar JAVA");
+        System.out.println("Sangat mudah sekali");
+        System.out.println("dan sangat menyenangkan");
+
+        
+
+        String input=JOptionPane.showInputDialog( "Anda Sedang belajar apa?");
+        
+        JOptionPane.showMessageDialog(null, "Belajar "+input+ " sangat mudah");
+    }
+}
